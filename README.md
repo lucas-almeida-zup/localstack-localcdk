@@ -1,19 +1,19 @@
 # Instalação localstack
 
 ## Indice
-1. [Configuração/verificação requisitos](#1.-Configuração/verificação-requisitos)
-2. [LocalStack](#2.-LocalStack)
-3. [CDK Local](#3.-CDK-Local)
-4. [Referências](#4.-Referencias)
+- [Configuração/verificação requisitos](#Configuração/verificação-requisitos)
+- [LocalStack](#LocalStack)
+- [CDK Local](#CDK-Local)
+- [Referências](#Referencias)
 
-## 1. Configuração/verificação requisitos
+## Configuração/verificação requisitos
 ### Python/pip
 [Verificar instalação com Homebrew](https://docs.brew.sh/Homebrew-and-Python#python-3x)  
 
 ### Docker
 Seguir passos de instalação em: [Get Docker](https://docs.docker.com/get-docker/)
 
-## 2. LocalStack
+## LocalStack
 ### Intalação
 ```
 pip install localstack
@@ -63,7 +63,7 @@ O comando deve retornar o status:
 # {"status": "running"}
 ```
 
-## 3. CDK Local
+## CDK Local
 CDK Local é configurado diretamente no projeto (typescript) com a instalação da dependência de *desenvolvimento* `aws-cdk-local`  dessa forma é possível fazer deploy da stack no localstack  
 
 ```
@@ -86,7 +86,7 @@ Testar comando executando:
 npm run local synth
 ```
 
-## 4. Referências
+## Referências
 - Repositório/informações [localstack](https://github.com/localstack/localstack)
 - Repositório/informações [awscli-local](https://github.com/localstack/awscli-local)
 - [Utilizando cdk com localstack e cdklocal](https://blog.dennisokeeffe.com/blog/2021-08-07-using-the-aws-cdk-with-localstack-and-aws-cdk-local)
