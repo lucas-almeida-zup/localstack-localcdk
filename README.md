@@ -1,12 +1,12 @@
 # Instalação localstack
 
 ## Indice
-- [Configuração/verificação requisitos](#Configuração/verificação-requisitos)
+- [Configuração/verificação requisitos](#Configurar-requisitos)
 - [LocalStack](#LocalStack)
 - [CDK Local](#CDK-Local)
 - [Referências](#Referencias)
 
-## Configuração/verificação requisitos
+## Configurar requisitos
 ### Python/pip
 [Verificar instalação com Homebrew](https://docs.brew.sh/Homebrew-and-Python#python-3x)  
 
@@ -86,7 +86,7 @@ Testar comando executando:
 npm run local synth
 ```
 
-## Referências
+## Referencias
 - Repositório/informações [localstack](https://github.com/localstack/localstack)
 - Repositório/informações [awscli-local](https://github.com/localstack/awscli-local)
 - [Utilizando cdk com localstack e cdklocal](https://blog.dennisokeeffe.com/blog/2021-08-07-using-the-aws-cdk-with-localstack-and-aws-cdk-local)
